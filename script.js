@@ -1,63 +1,11 @@
-// array of verbs
-const verbs = [
-  'run',
-  'jump',
-  'sleep',
-  'eat',
-  'drink',
-  'walk',
-  'talk',
-  'sing',
-  'dance',
-  'read',
-  'write',
-  'swim',
-  'draw',
-  'paint',
-  'drive',
-  'ride',
-  'fly',
-  'work',
-  'play',
-  'study',
-  'teach',
-  'learn',
-  'climb',
-  'cook',
-  'clean',
-  'shop',
-  'travel',
-  'watch',
-  'listen',
-  'smile',
-  'laugh',
-  'cry',
-  'dream',
-  'think',
-  'feel',
-  'love',
-  'hate',
-  'like',
-  'dislike',
-];
+// Reference the words.js file that contains the arrays of verbs and subjects
+const script = document.createElement('script');
+script.src = 'words.js';
+document.head.appendChild(script);
 
-// array of subjects
-const subjects = [
-  'I',
-  'you',
-  'he',
-  'she',
-  'it',
-  'we',
-  'they',
-  'John',
-  'Mary',
-  'Tom',
-  'Lisa',
-  'David and Emily',
-  'Michael and Sarah',
-  'You and I',
-];
+// Reference the arrays of verbs and subjects from the words.js file
+const verbs = window.verbs;
+const subjects = window.subjects;
 
 function generateRandomVerb() {
   // get a random index
