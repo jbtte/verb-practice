@@ -20,3 +20,9 @@ function generateRandomSubject() {
   // set the text of the word-left element to the random subject
   document.getElementById('word-left').innerHTML = randomSubject;
 }
+
+function generateRandomTense() {
+  const randomIndex = Math.floor(Math.random() * tenses.length);
+  const randomTense = tenses[randomIndex];
+  document.getElementById('tense-text').innerHTML = randomTense;
+}

@@ -31,6 +31,30 @@ h1 {
   margin-bottom: 20px;
 }
 
+.card {
+  margin-top: 20px;
+  
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.2s;
+}
+
+.card-text:hover {
+  background-color: #0069d9;
+}
+
 @media (max-width: 768px) {
   h1 {
       font-size: 3rem;

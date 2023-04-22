@@ -37,3 +37,10 @@ const subjects = [
   'Harry and Sally',
   'You and I',
 ];
+
+const tenses = [
+  'Present Simple',
+  'Present Continuous',
+  'Past Simple',
+  'Past Continuous',
+];
